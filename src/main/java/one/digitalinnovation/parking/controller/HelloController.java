@@ -10,7 +10,7 @@ import springfox.documentation.annotations.ApiIgnore;
 @RequestMapping("/")
 @ApiIgnore
 public class HelloController {
-
+//Passei por aqui...Eliane Coelho
     @GetMapping
     public String hello(){
         return "Hello DIO. Feito por professor Sandro e por Eliane Coelho";
